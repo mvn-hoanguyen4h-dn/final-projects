@@ -1,6 +1,6 @@
-import { Button, Checkbox, Form, Input } from "antd";
-import { useState } from "react";
 import { LockOutlined } from "@ant-design/icons";
+import { Button, Form, Input } from "antd";
+import { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import useAuth from "../../../hooks/useAuth";
 
@@ -61,7 +61,7 @@ function Login() {
             htmlType="submit"
             onClick={() => login({ email }, { password })}
           >
-            Submit
+            Login
           </Button>
         </Form.Item>
       </Form>
