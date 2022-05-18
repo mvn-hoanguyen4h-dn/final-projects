@@ -1,0 +1,15 @@
+.logo{
+  @include pxRem(padding, 10 36);
+  &-img{
+     @include pxRem(width, 120);
+    margin: 0 auto;
+  }
+}
+
+.navbar{
+  background-color: map-get($colors, primary-bg);
+  &-menu{
+    background-color: map-get($colors, primary-bg);
+    color: map-get($colors, ư)
+  }
+}
